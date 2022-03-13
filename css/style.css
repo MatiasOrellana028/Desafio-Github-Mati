@@ -252,3 +252,11 @@ footer {
 
 
 }
+/* Transformacion, animacion o Transiciones */
+article {
+        border: solid;
+        display: grid;
+        justify-content: center;
+        height: 100px;
+        margin-top: 15px;
+}
