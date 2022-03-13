@@ -256,7 +256,19 @@ footer {
 article {
         border: solid;
         display: grid;
-        justify-content: center;
         height: 100px;
         margin-top: 15px;
+}
+article {
+        text-align: center;
+        transition: all 2s ease-in;
+}
+article:hover {
+       transform: translateX(100px);
+}
+.centro:hover {
+        transform: scale(1.2);
+}
+.centro{
+        transition: all 2s;
 }
